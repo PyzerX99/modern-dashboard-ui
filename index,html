@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial;
+      background: #0f172a;
+      color: white;
+    }
+    .sidebar {
+      width: 200px;
+      height: 100vh;
+      background: #020617;
+      position: fixed;
+      padding: 20px;
+    }
+    .main {
+      margin-left: 220px;
+      padding: 20px;
+    }
+    .card {
+      background: #1e293b;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="sidebar">
+  <h2>Dashboard</h2>
+  <p>Home</p>
+  <p>Analytics</p>
+  <p>Settings</p>
+</div>
+
+<div class="main">
+  <div class="card">Users: 120</div>
+  <div class="card">Sales: $340</div>
+  <div class="card">Performance: Good</div>
+</div>
+
+</body>
+</html>
